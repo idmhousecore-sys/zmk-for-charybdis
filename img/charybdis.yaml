@@ -15,48 +15,48 @@ layers:
   - \
   - Tab
   - Q
-  - G
-  - M
-  - L
   - W
+  - E
+  - R
+  - T
   - Y
-  - F
   - U
-  - B
-  - ''''
+  - I
+  - O
+  - P
   - ''''
   - Shift
-  - D
-  - S
-  - T
-  - N
-  - R
-  - I
   - A
-  - E
-  - O
+  - S
+  - D
+  - F
+  - G
   - H
+  - J
+  - K
+  - L
   - ;
+  - ''''
   - Ctrl
   - Z
   - X
   - C
   - V
-  - J
-  - K
-  - P
+  - B
+  - N
+  - M
   - ','
   - .
   - {t: /, h: Mouse}
   - ESC
-  - LEFT WIN
-  - Space
+  - {t: Space, h: Shift}
+  - Cmd
   - {t: Enter, h: Lower}
   - {t: Enter, h: Raise}
-  - Space
+  - {t: BSPC, h: Alt}
   - Alt
   - CAPSLOCK
-  - DEL
+  - Enter
   Lower:
   - '~'
   - '!'
@@ -287,4 +287,4 @@ layers:
   - ''
 combos:
 - p: [31, 32]
-  k: {t: Lower, h: toggle}
+  k: CLCK
