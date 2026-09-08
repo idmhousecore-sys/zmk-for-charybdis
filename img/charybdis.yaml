@@ -49,11 +49,11 @@ layers:
   - .
   - {t: /, h: Mouse}
   - ESC
-  - {t: Space, h: Shift}
+  - {t: Space, h: Alt}
   - Cmd
   - {t: Enter, h: Lower}
-  - {t: Enter, h: Raise}
-  - {t: BSPC, h: Alt}
+  - {t: CLCK, h: Raise}
+  - {t: BSPC, h: Shift}
   - Alt
   - CAPSLOCK
   - Enter
