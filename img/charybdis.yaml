@@ -15,36 +15,36 @@ layers:
   - \
   - Tab
   - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - Shift
-  - A
-  - S
-  - D
-  - F
   - G
-  - A
-  - J
-  - K
+  - M
   - L
-  - ;
+  - W
+  - Y
+  - F
+  - U
+  - B
   - ''''
+  - ''''
+  - Shift
+  - D
+  - S
+  - T
+  - N
+  - R
+  - I
+  - A
+  - E
+  - O
+  - H
+  - ;
   - Ctrl
-  - {t: Z, h: Mouse}
+  - Z
   - X
   - C
   - V
-  - B
-  - I
-  - M
+  - J
+  - K
+  - P
   - ','
   - .
   - {t: /, h: Mouse}
@@ -53,7 +53,7 @@ layers:
   - Space
   - {t: Enter, h: Lower}
   - {t: Enter, h: Raise}
-  - Alt
+  - Space
   - Alt
   - CAPSLOCK
   - DEL
@@ -209,7 +209,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
   - Scroll
   - '&mkp LCLK'
@@ -218,7 +218,7 @@ layers:
   - '&mkp LCLK'
   - Scroll
   - '&mkp RCLK'
-  - ''
+  - {type: held}
   - '&bootloader'
   - ''
   - '&mkp LCLK'
@@ -266,7 +266,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
   - {type: held}
   - '&mkp LCLK'
@@ -275,7 +275,7 @@ layers:
   - '&mkp LCLK'
   - ''
   - '&mkp RCLK'
-  - ''
+  - {type: held}
   - '&bootloader'
   - ''
   - '&mkp LCLK'
@@ -285,3 +285,6 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [31, 32]
+  k: {t: Lower, h: toggle}
