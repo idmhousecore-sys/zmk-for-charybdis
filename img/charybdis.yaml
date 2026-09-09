@@ -52,7 +52,7 @@ layers:
   - {t: Space, h: Alt}
   - Cmd
   - {t: Enter, h: Lower}
-  - {t: CLCK, h: Raise}
+  - {t: GLOBE, h: Raise}
   - {t: BSPC, h: Shift}
   - Alt
   - CAPSLOCK
