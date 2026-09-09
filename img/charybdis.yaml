@@ -285,6 +285,3 @@ layers:
   - ''
   - ''
   - ''
-combos:
-- p: [31, 32]
-  k: CLCK
