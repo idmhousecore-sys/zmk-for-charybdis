@@ -52,7 +52,7 @@ layers:
   - {t: Space, h: Alt}
   - Cmd
   - {t: Enter, h: Lower}
-  - {t: GLOBE, h: Raise}
+  - {t: AC NEXT KEYBOARD LAYOUT SELECT, h: Raise}
   - {t: BSPC, h: Shift}
   - Alt
   - CAPSLOCK
