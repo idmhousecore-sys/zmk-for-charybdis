@@ -58,8 +58,7 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <4>;
-        snipe-layers = <3>;
-        cpi = <1200>; 
+        snipe-layers = <3>; 
       // automouse-layer = <3>;
     };
 };
@@ -77,6 +76,6 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 3 400>;
+        input-processors = <&zip_xy_scaler 3 2 &zip_temp_layer 3 400>;
     };
 };
