@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''''
-  - Shift
+  - ''
   - A
   - S
   - D
@@ -50,11 +50,11 @@ layers:
   - {t: /, h: Mouse}
   - ESC
   - {t: Space, h: Alt}
-  - Cmd
-  - {t: '?', h: Lower}
-  - Raise
-  - {t: BSPC, h: Shift}
   - {t: Tab, h: Raise}
+  - {t: '?', h: Lower}
+  - {t: Raise, h: toggle}
+  - {t: BSPC, h: Shift}
+  - Cmd
   - '-'
   - Enter
   Lower:
@@ -164,13 +164,13 @@ layers:
   - ''
   - ''
   - {t: Space, h: Alt}
-  - Cmd
-  - Enter
-  - {t: Base, type: held}
+  - {t: Tab, h: Raise, type: held}
+  - {t: '?', h: Lower}
+  - ''
   - {t: BSPC, h: Shift}
-  - ''
-  - ''
-  - ''
+  - Cmd
+  - '-'
+  - Enter
   Mouse:
   - ''
   - ''
@@ -221,12 +221,12 @@ layers:
   - {type: held}
   - '&bootloader'
   - {t: Space, h: Alt}
-  - Cmd
-  - ''
-  - Raise
+  - {t: Tab, h: Raise}
+  - {t: '?', h: Lower}
+  - {t: Raise, h: toggle}
   - {t: BSPC, h: Shift}
-  - ''
-  - ''
+  - Cmd
+  - '-'
   - Enter
   Scroll:
   - ''
@@ -298,3 +298,5 @@ combos:
   k: '{'
 - p: [19, 20]
   k: '}'
+- p: [7, 8]
+  k: \
