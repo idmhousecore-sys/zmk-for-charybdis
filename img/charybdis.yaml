@@ -51,7 +51,7 @@ layers:
   - ESC
   - {t: Space, h: Alt}
   - Cmd
-  - {t: Enter, h: Lower}
+  - {t: '?', h: Lower}
   - Raise
   - {t: BSPC, h: Shift}
   - {t: Tab, h: Raise}
@@ -220,14 +220,14 @@ layers:
   - ''
   - {type: held}
   - '&bootloader'
-  - ''
+  - {t: Space, h: Alt}
   - Cmd
   - ''
+  - Raise
+  - {t: BSPC, h: Shift}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Enter
   Scroll:
   - ''
   - ''
@@ -242,46 +242,59 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
   - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
   - ''
   - ''
+  - '&mkp LCLK'
+  - {t: Mouse, type: held}
+  - '&mkp RCLK'
   - ''
-  - {t: '&mkp MCLK', type: held}
   - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
+  - '&mkp LCLK'
+  - Mouse
+  - '&mkp RCLK'
   - ''
   - ''
   - '&bootloader'
   - ''
-  - '&mkp RCLK'
-  - ''
-  - '&mkp LCLK'
   - ''
   - ''
-  - '&mkp LCLK'
   - ''
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - '&bootloader'
   - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [27, 28]
+  k: (
+- p: [31, 32]
+  k: )
+- p: [39, 40]
+  k: '['
+- p: [43, 44]
+  k: ']'
+- p: [16, 15]
+  k: '{'
+- p: [19, 20]
+  k: '}'
