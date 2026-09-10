@@ -69,13 +69,13 @@
     zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <2000>;
+        require-prior-idle-ms = <500>;
         // excluded-positions = <1 2 3>; // Пока закомментируем, чтобы не усложнять
     };
 
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 3 10000>;
+        input-processors = <&zip_temp_layer 3 400>;
     };
 };
