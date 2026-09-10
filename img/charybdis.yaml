@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   Base:
-  - '`'
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -52,10 +52,10 @@ layers:
   - {t: Space, h: Alt}
   - Cmd
   - {t: Enter, h: Lower}
-  - {t: AC NEXT KEYBOARD LAYOUT SELECT, h: Raise}
+  - Raise
   - {t: BSPC, h: Shift}
-  - Alt
-  - CAPSLOCK
+  - {t: Tab, h: Raise}
+  - '-'
   - Enter
   Lower:
   - '~'
@@ -107,7 +107,7 @@ layers:
   - F12
   - PgDn
   - LEFT WIN
-  - Space
+  - Cmd
   - {type: held}
   - Enter
   - Alt
@@ -133,22 +133,22 @@ layers:
   - Sft+3
   - Sft+4
   - Sft+[
-  - Sft+]
   - ''
   - ''
+  - UP ARROW
   - ''
   - ''
   - ''
   - LSHFT
   - Sft+5
   - Sft+6
-  - Sft+7
+  - D
   - Sft+8
   - ''
-  - Sft+\
   - ''
-  - ↑
-  - ''
+  - ←
+  - ↓
+  - →
   - ''
   - ''
   - Ctrl
@@ -158,16 +158,16 @@ layers:
   - Sft+=
   - ''
   - ''
-  - ←
-  - ↓
-  - →
   - ''
   - ''
-  - LEFT WIN
-  - Space
+  - ''
+  - ''
+  - ''
+  - {t: Space, h: Alt}
+  - Cmd
   - Enter
-  - {type: held}
-  - Alt
+  - {t: Base, type: held}
+  - {t: BSPC, h: Shift}
   - ''
   - ''
   - ''
@@ -185,46 +185,46 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
   - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
-  - C
   - ''
   - ''
-  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - Scroll
+  - '&mkp RCLK'
   - ''
   - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
+  - '&mkp LCLK'
+  - Scroll
+  - '&mkp RCLK'
   - ''
   - ''
   - '&bootloader'
   - ''
-  - '&mkp RCLK'
-  - Scroll
-  - '&mkp LCLK'
+  - ''
+  - ''
+  - ''
   - ''
   - '&studio_unlock'
-  - '&mkp LCLK'
-  - Scroll
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
   - {type: held}
   - '&bootloader'
   - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
+  - Cmd
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -256,7 +256,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MCLK'
+  - {t: '&mkp MCLK', type: held}
   - ''
   - ''
   - ''
@@ -268,7 +268,7 @@ layers:
   - '&bootloader'
   - ''
   - '&mkp RCLK'
-  - {type: held}
+  - ''
   - '&mkp LCLK'
   - ''
   - ''
