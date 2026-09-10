@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - {t: /, h: Mouse}
-  - ESC
+  - '5'
   - {t: Space, h: Alt}
   - {t: Tab, h: Raise}
   - {t: '?', h: Lower}
@@ -166,7 +166,7 @@ layers:
   - {t: Space, h: Alt}
   - {t: Tab, h: Raise, type: held}
   - {t: '?', h: Lower}
-  - ''
+  - {t: Base, h: toggle}
   - {t: BSPC, h: Shift}
   - Cmd
   - '-'
@@ -247,21 +247,21 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
   - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - '&mkp LCLK'
-  - {t: Mouse, type: held}
+  - {type: held}
   - '&mkp RCLK'
   - ''
   - ''
   - '&mkp LCLK'
-  - Mouse
+  - ''
   - '&mkp RCLK'
   - ''
   - ''
@@ -285,6 +285,63 @@ layers:
   - ''
   - ''
   - ''
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [27, 28]
   k: (
