@@ -44,9 +44,29 @@
             key-positions = <19 20>;
         };
 
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 30>;
+        };
+
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <7 8>;
+            key-positions = <18 19>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <28 29>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <14 15>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <27 26>;
         };
     };
 
@@ -60,7 +80,7 @@
 &none       &kp A   &kp S   &kp D               &kp F         &kp G             &kp H      &kp J                     &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL   &kp Z   &kp X   &kp C               &kp V         &kp B             &kp N      &kp M                     &kp COMMA  &kp DOT  &lt 3 SLASH    &mo 5
                             &mt LEFT_ALT SPACE  &lt 2 TAB     &lt 1 QUESTION    &to 2      &mt LEFT_SHIFT BACKSPACE
-                                                &kp LEFT_GUI  &kp MINUS         &kp ENTER
+                                                &kp LEFT_GUI  &kp LC(UP)        &kp ENTER
             >;
         };
 
