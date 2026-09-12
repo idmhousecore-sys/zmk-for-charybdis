@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - \
-  - ''
+  - GLOBE
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''''
-  - ''
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - A
   - S
   - D
@@ -49,12 +49,12 @@ layers:
   - .
   - {t: /, h: Mouse}
   - '5'
-  - {t: Space, h: Alt}
-  - {t: Tab, h: Raise}
-  - {t: '?', h: Lower}
-  - {t: Raise, h: toggle}
-  - {t: BSPC, h: Shift}
   - Cmd
+  - {t: BSPC, h: Alt}
+  - {t: Raise, h: toggle}
+  - Tab
+  - {t: Space, h: Shift}
+  - Raise
   - Ctl+↑
   - Enter
   Lower:
@@ -108,7 +108,7 @@ layers:
   - PgDn
   - LEFT WIN
   - Cmd
-  - {type: held}
+  - {t: ▽, type: trans}
   - Enter
   - Alt
   - ''
@@ -163,13 +163,13 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Space, h: Alt}
-  - {t: Tab, h: Raise, type: held}
-  - {t: '?', h: Lower}
-  - {t: Base, h: toggle}
-  - {t: BSPC, h: Shift}
   - Cmd
-  - '-'
+  - {t: BSPC, h: Alt}
+  - {t: Base, h: toggle}
+  - Tab
+  - {t: Space, h: Shift}
+  - {type: held}
+  - Ctl+↑
   - Enter
   Mouse:
   - ''
@@ -220,13 +220,13 @@ layers:
   - ''
   - {type: held}
   - '&bootloader'
-  - {t: Space, h: Alt}
-  - {t: Tab, h: Raise}
-  - {t: '?', h: Lower}
-  - {t: Raise, h: toggle}
-  - {t: BSPC, h: Shift}
   - Cmd
-  - '-'
+  - {t: BSPC, h: Alt}
+  - {t: Raise, h: toggle}
+  - Tab
+  - {t: Space, h: Shift}
+  - Raise
+  - Ctl+↑
   - Enter
   Scroll:
   - ''
@@ -365,3 +365,13 @@ combos:
   k: +
 - p: [27, 26]
   k: '='
+- p: [41, 40]
+  k: ;
+- p: [42, 43]
+  k: ':'
+- p: [39, 38]
+  k: '~'
+- p: [32, 33]
+  k: ''''
+- p: [21, 20]
+  k: '"'
