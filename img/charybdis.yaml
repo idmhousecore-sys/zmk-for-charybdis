@@ -198,14 +198,14 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp LCLK'
-  - Scroll
-  - '&mkp RCLK'
   - ''
   - ''
-  - '&mkp LCLK'
-  - Scroll
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - '&bootloader'
@@ -220,12 +220,12 @@ layers:
   - ''
   - {type: held}
   - '&bootloader'
-  - Cmd
-  - {t: Enter, h: Alt}
-  - {t: Raise, h: toggle}
+  - '&mkp LCLK'
+  - Scroll
+  - '&mkp RCLK'
   - Tab
   - {t: Space, h: Shift}
-  - Raise
+  - ''
   - Ctl+↑
   - BSPC
   Scroll:
@@ -255,14 +255,14 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp LCLK'
-  - {type: held}
-  - '&mkp RCLK'
   - ''
   - ''
-  - '&mkp LCLK'
   - ''
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - '&bootloader'
@@ -277,9 +277,9 @@ layers:
   - ''
   - {type: held}
   - '&bootloader'
-  - ''
-  - ''
-  - ''
+  - '&mkp LCLK'
+  - {type: held}
+  - '&mkp RCLK'
   - ''
   - ''
   - ''
