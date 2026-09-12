@@ -331,7 +331,7 @@ path.combo {
 </g>
 <g transform="translate(252, 252)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BSPC</text>
+<text x="0" y="0" class="key tap">Enter</text>
 <text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(308, 252)" class="key keypos-50">
@@ -360,7 +360,7 @@ path.combo {
 </g>
 <g transform="translate(420, 308)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Enter</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -905,7 +905,7 @@ path.combo {
 </g>
 <g transform="translate(252, 252)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BSPC</text>
+<text x="0" y="0" class="key tap">Enter</text>
 <text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(308, 252)" class="key keypos-50">
@@ -932,7 +932,7 @@ path.combo {
 </g>
 <g transform="translate(420, 308)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Enter</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -1172,7 +1172,7 @@ path.combo {
 </g>
 <g transform="translate(252, 252)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BSPC</text>
+<text x="0" y="0" class="key tap">Enter</text>
 <text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(308, 252)" class="key keypos-50">
@@ -1201,7 +1201,7 @@ path.combo {
 </g>
 <g transform="translate(420, 308)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Enter</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
