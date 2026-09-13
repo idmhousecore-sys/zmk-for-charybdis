@@ -51,7 +51,7 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <18 19>;
+            key-positions = <32 33>;
         };
 
         question {
@@ -76,7 +76,7 @@
 
         tochkazapyataya {
             bindings = <&kp SQT>;
-            key-positions = <32 33>;
+            key-positions = <18 19>;
         };
 
         dvoetochie {
