@@ -5,6 +5,7 @@
  */
  
 #include "charybdis.dtsi"
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &default_transform {
     col-offset = <6>;
@@ -20,8 +21,6 @@
 		, <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
 };
-
-
 
 // trackball bus
 &pinctrl {
@@ -58,17 +57,22 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <4>;
+
+        // --- Настройки инерционного скролла (RaZiLy) ---
+        inertial-scroll;
+        inertial-scroll-layers = <4>;      // Слой, на котором работает инерция (совпадает со scroll-layers)
+        inertial-scroll-gain-pct = <130>;  // Начальная «сила» инерции
+        inertial-scroll-decay-pct = <99>;  // Затухание: чем ближе к 100, тем дольше «катится»
+        inertial-scroll-interval-ms = <10>; // Интервал обновления
+        inertial-scroll-threshold = <4>;   // Порог срабатывания
     };
 };
-
-
 
 / {
     zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         require-prior-idle-ms = <500>;
-        
     };
 
     trackball_listener {
