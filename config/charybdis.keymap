@@ -46,7 +46,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 30>;
+            key-positions = <31 28>;
         };
 
         backslash {
@@ -56,7 +56,7 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <28 29>;
+            key-positions = <26 33>;
         };
 
         plus {
@@ -69,29 +69,29 @@
             key-positions = <27 26>;
         };
 
-        semico {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <41 40>;
-        };
-
-        colon {
-            bindings = <&kp COLON>;
-            key-positions = <42 43>;
-        };
-
         tilda {
             bindings = <&kp TILDE>;
             key-positions = <39 38>;
         };
 
-        apost {
+        tochkazapyataya {
             bindings = <&kp SQT>;
             key-positions = <32 33>;
         };
 
-        double {
+        dvoetochie {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <21 20>;
+        };
+
+        apostrophe {
+            bindings = <&kp P>;
+            key-positions = <32 27>;
+        };
+
+        kavychki {
+            bindings = <&kp LS(P)>;
+            key-positions = <44 45>;
         };
     };
 
