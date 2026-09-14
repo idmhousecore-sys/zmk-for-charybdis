@@ -1,15 +1,21 @@
-
 manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: oleksandrmaslov
-      url-base: https://github.com/oleksandrmaslov
+    - name: DoctorWangWang
+      url-base: https://github.com/DoctorWangWang
+    - name: oleksandrmaslov                    # <-- НОВОЕ
+      url-base: https://github.com/oleksandrmaslov  # <-- НОВОЕ
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
-    - name: zmk-pointing-acceleration
-      remote: oleksandrmaslov
+    - name: zmk-pmw3610-driver
+      remote: DoctorWangWang
       revision: main
+    - name: zmk-pointing-acceleration          # <-- НОВОЕ
+      remote: oleksandrmaslov                  # <-- НОВОЕ
+      revision: main                           # <-- НОВОЕ
+  self:
+    path: config
