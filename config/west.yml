@@ -9,3 +9,6 @@
     - name: zmk-pointing-acceleration
       remote: oleksandrmaslov
       revision: main
+      
+  self:
+    path: config
