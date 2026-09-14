@@ -58,53 +58,16 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <4>;
-    };
-};
-
-#include <zephyr/dt-bindings/input/input-event-codes.h>
-
-/ {
-    zip_scroll_scaler: zip_scroll_scaler {
-        compatible = "zmk,input-processor-scaler";
-        #input-processor-cells = <2>;
-        type = <INPUT_EV_REL>;
-        codes = <INPUT_REL_WHEEL INPUT_REL_HWHEEL>;
-        track-remainders;
+        snipe-layers = <3>;
+      // automouse-layer = <3>;
     };
 };
 
 
-/ {
-    zip_temp_layer: zip_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <500>;
-        
-    };
-#include <input/processors.dtsi>
 
 / {
-    pointer_accel: pointer_accel {
-        compatible = "zmk,input-processor-accel";
-        #input-processor-cells = <0>;
-        input-type = <INPUT_EV_REL>;
-        track-remainders;
-        // Настройки акселерации для прокрутки:
-        // min-factor — множитель на очень медленной скорости (0.8x)
-        min-factor = <800>;
-        // max-factor — максимальный множитель (3.0x)
-        max-factor = <3000>;
-        // speed-threshold — скорость (в counts/sec), при которой достигается 1x
-        speed-threshold = <1200>;
-        // speed-max — скорость, при которой достигается max-factor
-        speed-max = <6000>;
-        // acceleration-exponent — кривая: 1 = линейная, 2 = квадратичная
-        acceleration-exponent = <2>;
-    };
-};
     trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-    input-processors = <&pointer_accel &zip_temp_layer 3 400>;
-};
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+    };
 };
