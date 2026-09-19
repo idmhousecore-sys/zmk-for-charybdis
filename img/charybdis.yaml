@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - \
-  - ''
+  - F22
   - Q
   - W
   - E
@@ -225,7 +225,7 @@ layers:
   - ''
   - Tab
   - {t: Space, h: Shift}
-  - ''
+  - F22
   - Ctl+↑
   - BSPC
   Scroll:
@@ -282,7 +282,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - F22
   - ''
   - ''
   '5':
