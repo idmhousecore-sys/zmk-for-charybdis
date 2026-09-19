@@ -225,7 +225,7 @@ layers:
   - ''
   - Tab
   - {t: Space, h: Shift}
-  - F22
+  - Cmd
   - Ctl+↑
   - BSPC
   Scroll:
@@ -282,7 +282,7 @@ layers:
   - ''
   - ''
   - ''
-  - F22
+  - Cmd
   - ''
   - ''
   '5':
