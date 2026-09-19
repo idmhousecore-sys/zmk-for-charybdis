@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - \
-  - GLOBE
+  - ''
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''''
-  - AC NEXT KEYBOARD LAYOUT SELECT
+  - CAPSLOCK
   - A
   - S
   - D
@@ -51,7 +51,7 @@ layers:
   - '5'
   - Cmd
   - {t: Enter, h: Alt}
-  - {t: Raise, h: toggle}
+  - ''
   - Tab
   - {t: Space, h: Shift}
   - Raise
