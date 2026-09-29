@@ -46,7 +46,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 28>;
+            key-positions = <19 16>;
         };
 
         backslash {
@@ -56,7 +56,7 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <26 33>;
+            key-positions = <21 14>;
         };
 
         plus {
@@ -86,7 +86,7 @@
 
         apostrophe {
             bindings = <&kp P>;
-            key-positions = <32 27>;
+            key-positions = <20 15>;
         };
 
         kavychki {
@@ -104,8 +104,8 @@
 &kp F22       &kp Q   &kp W   &kp E         &kp R               &kp T         &kp Y          &kp U                 &kp I      &kp O    &kp P          &kp SQT
 &kp CAPSLOCK  &kp A   &kp S   &kp D         &kp F               &kp G         &kp H          &kp J                 &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL     &kp Z   &kp X   &kp C         &kp V               &kp B         &kp N          &kp M                 &kp COMMA  &kp DOT  &lt 3 SLASH    &mo 5
-                              &kp LEFT_GUI  &mt LEFT_ALT ENTER  &none         &kp TAB        &mt LEFT_SHIFT SPACE
-                                            &mo 2               &kp LC(UP)    &kp BACKSPACE
+                              &kp LEFT_GUI  &mt LEFT_ALT ENTER  &none         &kp BACKSPACE  &mt LEFT_SHIFT SPACE
+                                            &mo 2               &kp LC(UP)    &kp TAB
             >;
         };
 
