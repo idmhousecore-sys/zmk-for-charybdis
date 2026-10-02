@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - \
-  - CAPSLOCK
+  - KP 1
   - Q
   - W
   - E
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - ''''
-  - CAPSLOCK
+  - MENU
+  - F13
   - A
   - S
   - D
@@ -51,7 +51,7 @@ layers:
   - '5'
   - Cmd
   - {t: Enter, h: Alt}
-  - ''
+  - F1
   - BSPC
   - {t: Space, h: Shift}
   - Raise
