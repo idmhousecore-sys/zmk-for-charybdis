@@ -46,7 +46,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <19 16>;
+            key-positions = <43 40>;
         };
 
         backslash {
@@ -56,7 +56,7 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <21 14>;
+            key-positions = <45 38>;
         };
 
         plus {
@@ -86,7 +86,7 @@
 
         apostrophe {
             bindings = <&kp P>;
-            key-positions = <20 15>;
+            key-positions = <44 39>;
         };
 
         kavychki {
@@ -111,12 +111,12 @@
 
         Lower {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
-&kp LSHFT  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LCTRL  &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
-                                          &kp LEFT_WIN  &kp LEFT_GUI  &trans         &kp ENTER      &kp RIGHT_ALT
-                                                        &none         &none          &none
+&kp ESCAPE  &kp NUMBER_1  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
+&none       &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
+&kp LCTRL   &kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
+                                        &kp LEFT_WIN  &kp LEFT_GUI  &trans         &kp ENTER      &kp RIGHT_ALT
+                                                      &none         &none          &none
             >;
         };
 
