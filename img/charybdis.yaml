@@ -51,7 +51,7 @@ layers:
   - '5'
   - Cmd
   - {t: Enter, h: Alt}
-  - F1
+  - '`'
   - BSPC
   - {t: Space, h: Shift}
   - Raise
