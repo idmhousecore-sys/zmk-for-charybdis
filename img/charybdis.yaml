@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - MENU
-  - Ctrl
+  - Ctl+Alt+Z
   - A
   - S
   - D
@@ -55,7 +55,7 @@ layers:
   - BSPC
   - {t: Space, h: Shift}
   - Raise
-  - Ctl+↑
+  - Ctrl
   - Tab
   Lower:
   - ESC
@@ -375,3 +375,5 @@ combos:
   k: P
 - p: [44, 45]
   k: Sft+P
+- p: [54, 55]
+  k: Ctl+UP ARROW
