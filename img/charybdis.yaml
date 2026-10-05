@@ -12,8 +12,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
-  - KP 1
+  - ''
+  - ''
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - MENU
+  - ''
   - Ctl+Alt+Z
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - ''
   - Ctrl
   - Z
   - X
@@ -52,8 +52,8 @@ layers:
   - Cmd
   - {t: Enter, h: Alt}
   - '`'
-  - BSPC
-  - {t: Space, h: Shift}
+  - {t: BSPC, h: Shift}
+  - Space
   - Raise
   - Ctrl
   - Tab
