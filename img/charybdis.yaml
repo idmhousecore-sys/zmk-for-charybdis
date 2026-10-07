@@ -165,12 +165,12 @@ layers:
   - ''
   - Cmd
   - {t: Enter, h: Alt}
-  - {t: Base, h: toggle}
-  - Tab
-  - {t: Space, h: Shift}
+  - '`'
+  - {t: BSPC, h: Shift}
+  - Space
   - {type: held}
-  - Ctl+↑
-  - BSPC
+  - Ctrl
+  - Tab
   Mouse:
   - ''
   - ''
@@ -222,12 +222,12 @@ layers:
   - '&bootloader'
   - Cmd
   - Scroll
-  - ''
+  - '`'
+  - {t: BSPC, h: Shift}
+  - Space
+  - Raise
+  - Ctrl
   - Tab
-  - {t: Space, h: Shift}
-  - Cmd
-  - Ctl+↑
-  - BSPC
   Scroll:
   - ''
   - ''
@@ -277,14 +277,14 @@ layers:
   - ''
   - {type: held}
   - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - Cmd
-  - ''
-  - ''
+  - {t: Enter, h: Alt}
+  - '`'
+  - {t: BSPC, h: Shift}
+  - Space
+  - Raise
+  - Ctrl
+  - Tab
   '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
