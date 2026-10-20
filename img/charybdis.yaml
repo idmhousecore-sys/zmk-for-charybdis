@@ -50,8 +50,8 @@ layers:
   - {t: /, h: Mouse}
   - '5'
   - Cmd
-  - {t: Enter, h: Alt}
-  - '`'
+  - {t: '`', h: Alt}
+  - Shift
   - {t: BSPC, h: Shift}
   - Space
   - Raise
@@ -377,3 +377,5 @@ combos:
   k: Sft+P
 - p: [54, 55]
   k: Ctl+UP ARROW
+- p: [49, 52]
+  k: Enter
