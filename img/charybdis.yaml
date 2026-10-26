@@ -50,8 +50,8 @@ layers:
   - {t: /, h: Mouse}
   - '5'
   - Cmd
-  - {t: '`', h: Alt}
-  - Shift
+  - Alt
+  - '`'
   - {t: BSPC, h: Shift}
   - Space
   - Raise
