@@ -103,6 +103,11 @@
             bindings = <&kp ENTER>;
             key-positions = <49 52>;
         };
+
+        nizhnee_podcherkivanie {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <41 40>;
+        };
     };
 
     keymap {
