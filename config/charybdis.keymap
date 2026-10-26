@@ -66,7 +66,7 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <27 26>;
+            key-positions = <41 42>;
         };
 
         tilda {
