@@ -379,3 +379,5 @@ combos:
   k: Ctl+UP ARROW
 - p: [49, 52]
   k: Enter
+- p: [41, 40]
+  k: Sft+-
