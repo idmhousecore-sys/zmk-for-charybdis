@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''
-  - '`'
+  - Gui+Alt+←
   - A
   - S
   - D
@@ -36,8 +36,8 @@ layers:
   - K
   - L
   - ;
-  - '&strelka'
-  - Ctrl
+  - Gui+Alt+→
+  - ''
   - Z
   - X
   - C
@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - {t: /, h: Mouse}
-  - '5'
+  - '&strelka'
   - Cmd
   - Alt
   - Cmd
@@ -322,7 +322,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -383,3 +383,5 @@ combos:
   k: Sft+-
 - p: [0, 11]
   k: '&fduwev'
+- p: [36, 47]
+  k: '5'
