@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - ''
-  - Ctl+Alt+Z
+  - Ctl+Shift
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''
-  - Shift
+  - '`'
   - A
   - S
   - D
@@ -51,7 +51,7 @@ layers:
   - '5'
   - Cmd
   - Alt
-  - '`'
+  - Cmd
   - {t: BSPC, h: Shift}
   - Space
   - Raise
@@ -164,8 +164,8 @@ layers:
   - ''
   - ''
   - Cmd
-  - {t: Enter, h: Alt}
-  - '`'
+  - Alt
+  - Cmd
   - {t: BSPC, h: Shift}
   - Space
   - {type: held}
@@ -187,7 +187,7 @@ layers:
   - ''
   - ''
   - ''
-  - Cmd
+  - ''
   - ''
   - ''
   - ''
@@ -199,7 +199,7 @@ layers:
   - ''
   - ''
   - '&mkp RCLK'
-  - Scroll
+  - Cmd
   - '&mkp LCLK'
   - ''
   - ''
@@ -222,7 +222,7 @@ layers:
   - '&bootloader'
   - Cmd
   - Scroll
-  - '`'
+  - Cmd
   - {t: BSPC, h: Shift}
   - Space
   - Raise
@@ -244,24 +244,24 @@ layers:
   - ''
   - ''
   - ''
+  - Shift
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Cmd
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -279,7 +279,7 @@ layers:
   - '&bootloader'
   - Cmd
   - {t: Enter, h: Alt}
-  - '`'
+  - Cmd
   - {t: BSPC, h: Shift}
   - Space
   - Raise
