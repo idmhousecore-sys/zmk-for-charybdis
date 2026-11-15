@@ -117,6 +117,13 @@
             bindings = <&kp MINUS &kp GREATER_THAN>;
             label = "STRELKA";
         };
+
+        fduwev: fduwev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp D &kp U &kp W &kp E &kp V &kp F &kp A &kp R &kp J &kp O &kp P &kp Y &kp U &kp I &kp N0 &kp N5 &kp J &kp N9 &kp R &kp T &kp N9 &kp N5 &kp LS(F) &kp LS(M)>;
+            label = "FDUWEV";
+        };
     };
 
     keymap {
