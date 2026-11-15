@@ -381,3 +381,5 @@ combos:
   k: Enter
 - p: [41, 40]
   k: Sft+-
+- p: [0, 11]
+  k: '&fduwev'

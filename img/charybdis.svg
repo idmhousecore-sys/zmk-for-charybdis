@@ -447,6 +447,12 @@ path.combo {
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
 </g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 392)" class="layer-Lower">
@@ -761,6 +767,12 @@ path.combo {
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
 </g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 784)" class="layer-Raise">
@@ -1067,6 +1079,12 @@ path.combo {
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
 </g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1176)" class="layer-Mouse">
@@ -1361,6 +1379,12 @@ path.combo {
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
 </g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1568)" class="layer-Scroll">
@@ -1637,6 +1661,12 @@ path.combo {
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
+</g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
 </g>
 </g>
 </g>
@@ -1959,6 +1989,12 @@ path.combo {
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
 <text x="280" y="196" class="combo tap">Sft+-</text>
+</g>
+<g class="combo combopos-19">
+<path d="M364,28 l-317,0" class="combo"/>
+<path d="M364,28 l317,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="15" width="28" height="26" class="combo"/>
+<text x="364" y="28" class="combo tap">&amp;fduwev</text>
 </g>
 </g>
 </g>
